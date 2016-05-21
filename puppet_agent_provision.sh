@@ -12,3 +12,4 @@ sudo apt-get install -y puppet git
 
 sudo echo '[agent]' >> /etc/puppet/puppet.conf
 sudo echo 'server=red1' >> '/etc/puppet/puppet.conf'
+sudo service puppet restart

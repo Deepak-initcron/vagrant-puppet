@@ -17,3 +17,4 @@ mkdir /var/cache/r10k
 chgrp puppet /var/cache/r10k
 chmod 2775 /var/cache/r10k
 
+sudo service puppetmaster restart
