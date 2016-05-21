@@ -10,5 +10,5 @@ rm puppetlabs-release-trusty.deb
 
 sudo apt-get install -y puppet git
 
-echo '[agent]' > /etc/puppet/puppet.conf
-echo 'server=red1' >> '/etc/puppet/puppet.conf'
+sudo echo '[agent]' >> /etc/puppet/puppet.conf
+sudo echo 'server=red1' >> '/etc/puppet/puppet.conf'
